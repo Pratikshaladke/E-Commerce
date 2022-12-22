@@ -1,0 +1,29 @@
+*body{
+    margin: 0;
+    padding: 20px;
+    background: whitesmoke;
+}
+ .card{
+    background: rgb(150, 112, 112);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 250px;
+    height: 50vh;
+} 
+
+.cartcard{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 14px;
+    border-radius: 5px;
+}
+
+.productwrapper{
+    display: grid;
+    grid-template-columns: repeat(4, - 1fr);
+    gap: 30px;
+}
